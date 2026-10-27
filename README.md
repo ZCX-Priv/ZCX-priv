@@ -39,7 +39,7 @@
     <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=md&amp;theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=md&amp;theme=light"><img src="https://skillicons.dev/icons?i=md&amp;theme=dark" alt="Markdown"></picture></td>
   </tr>
   <tr>
-    <td><strong>运行时 / 基础设施</strong></td>
+    <td><strong>运行时 / 基建</strong></td>
     <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cbun%2Cnginx%2Cgit&amp;theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs%2Cbun%2Cnginx%2Cgit&amp;theme=light"><img src="https://skillicons.dev/icons?i=nodejs,bun,nginx,git&amp;theme=dark" alt="Node.js, Bun, Nginx, Git"></picture></td>
   </tr>
   <tr>
