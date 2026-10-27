@@ -355,11 +355,11 @@ function renderHeatmap(palette, data) {
       const date = weeks[index].contributionDays[0].date;
       const month = MONTHS[Number(date.slice(5, 7)) - 1];
       const x = startX + index * (cellWidth + gapX) + cellWidth / 2;
-      return `<text x="${x.toFixed(2)}" y="196" text-anchor="middle" font-size="8" letter-spacing="1" fill="${palette.dim}">${month}</text>`;
+      return `<text x="${x.toFixed(2)}" y="196" text-anchor="middle" font-size="8.5" letter-spacing="1" fill="${palette.dim}">${month}</text>`;
     });
 
   return `
-    <text x="514" y="78" font-size="10" font-weight="600" letter-spacing="2" fill="${palette.accent}">ACTIVITY · 52W</text>
+    <text x="514" y="78" font-size="10.5" font-weight="600" letter-spacing="2" fill="${palette.accent}">ACTIVITY · 52W</text>
     ${cells.join('')}
     ${marks.join('')}
   `;
@@ -378,7 +378,7 @@ function renderMetricsGrid(palette, data) {
       const valueColor = cell.value === '—' ? palette.dim : palette.text;
       return `
         <text x="${cell.x}" y="${cell.valueY}" font-size="38" font-weight="700" fill="${valueColor}">${escapeXml(cell.value)}</text>
-        <text x="${cell.x}" y="${cell.labelY}" font-size="9" letter-spacing="1.6" fill="${palette.muted}">${cell.label}</text>
+        <text x="${cell.x}" y="${cell.labelY}" font-size="9.5" letter-spacing="1.5" fill="${palette.muted}">${cell.label}</text>
       `;
     })
     .join('');
@@ -411,15 +411,15 @@ function renderLanguages(palette, data) {
       const itemX = 32 + index * step;
       return `
         <circle cx="${(itemX + 4).toFixed(2)}" cy="280" r="3" fill="${item.color}"/>
-        <text x="${(itemX + 14).toFixed(2)}" y="283" font-size="9.5" fill="${palette.muted}">${escapeXml(item.name)} ${formatPercent(item.pct)}</text>
+        <text x="${(itemX + 14).toFixed(2)}" y="283" font-size="10.5" fill="${palette.muted}">${escapeXml(item.name)} ${formatPercent(item.pct)}</text>
       `;
     })
     .join('');
 
   return `
     <line x1="32" y1="224" x2="848" y2="224" stroke="${palette.border}" stroke-width="1"/>
-    <text x="32" y="242" font-size="9" letter-spacing="1.6" fill="${palette.muted}">PRIMARY LANGUAGES</text>
-    <text x="848" y="242" text-anchor="end" font-size="8" letter-spacing="1" fill="${palette.dim}">TOP 5 · BY PRIMARY LANGUAGE</text>
+    <text x="32" y="242" font-size="9.5" letter-spacing="1.5" fill="${palette.muted}">PRIMARY LANGUAGES</text>
+    <text x="848" y="242" text-anchor="end" font-size="8.5" letter-spacing="1" fill="${palette.dim}">TOP 5 · BY PRIMARY LANGUAGE</text>
     <rect x="32" y="252" width="816" height="8" rx="3" fill="${palette.border}"/>
     <g clip-path="url(#barClip)">${segments.join('')}</g>
     ${legend}
@@ -470,7 +470,7 @@ function renderMetrics(palette, data) {
     <text x="44" y="30" font-size="12" letter-spacing="0.3" fill="${palette.muted}">
       <tspan>zcx@priv:~$ </tspan><tspan fill="${palette.accent}">./metrics --window 365d</tspan>
     </text>
-    <text x="848" y="30" text-anchor="end" font-size="9" letter-spacing="1.5" fill="${palette.dim}">${headerRight}</text>
+    <text x="848" y="30" text-anchor="end" font-size="9.5" letter-spacing="1.5" fill="${palette.dim}">${headerRight}</text>
     <line x1="32" y1="48" x2="848" y2="48" stroke="${palette.border}" stroke-width="1"/>
 
     ${renderMetricsGrid(palette, data)}
@@ -480,8 +480,8 @@ function renderMetrics(palette, data) {
     ${renderHeatmap(palette, data)}
     ${renderLanguages(palette, data)}
 
-    <text x="32" y="306" font-size="9" letter-spacing="0.4" fill="${palette.dim}">${source}</text>
-    <text x="848" y="306" text-anchor="end" font-size="9" letter-spacing="0.4" fill="${palette.dim}">updated ${updated}</text>
+    <text x="32" y="306" font-size="9.5" letter-spacing="0.4" fill="${palette.dim}">${source}</text>
+    <text x="848" y="306" text-anchor="end" font-size="9.5" letter-spacing="0.4" fill="${palette.dim}">updated ${updated}</text>
   </g>
 </svg>
 `;
