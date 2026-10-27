@@ -57,7 +57,7 @@
 
     <text x="42" y="150" font-size="12" font-weight="600" letter-spacing="3.2" fill="#7EE787">SECURITY · SYSTEMS · FULL-STACK</text>
 
-    <text x="42" y="188" font-size="15" letter-spacing="0.2" fill="#8A9B8F">Understand the system. Break it. Build it back stronger.</text>
+    <text x="42" y="188" font-size="15" letter-spacing="0.2" fill="#8A9B8F">Mostly learning security, occasionally shipping something.</text>
 
     <circle cx="45" cy="254" r="3" fill="#7EE787"/>
     <text x="55" y="258" font-size="12" letter-spacing="0.3" fill="#8A9B8F">github.com/ZCX-Priv</text>

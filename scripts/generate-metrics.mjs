@@ -429,7 +429,7 @@ function renderLanguages(palette, data) {
 function renderMetrics(palette, data) {
   const headerRight =
     data.mode === 'full'
-      ? 'AUTO-SYNC · 03:17 UTC'
+      ? 'AUTO-SYNC · 00:00 UTC'
       : data.mode === 'fixture'
         ? 'PREVIEW · FIXTURE'
         : 'SEED · PUBLIC DATA';
