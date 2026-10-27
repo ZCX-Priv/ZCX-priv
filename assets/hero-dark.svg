@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880" height="300" viewBox="0 0 880 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">SOLO-Thinker — Security, Systems, Full-Stack</title>
+  <desc id="heroDesc">Terminal-style profile banner for SOLO-Thinker, a security engineering learner and full-stack builder.</desc>
+  <defs>
+    <clipPath id="heroClip">
+      <rect x="0.5" y="0.5" width="879" height="299" rx="14" ry="14"/>
+    </clipPath>
+    <pattern id="heroGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#7EE787" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <pattern id="heroScan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" fill-opacity="0.12"/>
+    </pattern>
+    <radialGradient id="heroGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7EE787" stop-opacity="0.10"/>
+      <stop offset="0.55" stop-color="#3FB950" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#7EE787" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .hero-cursor { animation: hero-blink 1.2s steps(1, end) infinite; }
+      @keyframes hero-blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .hero-cursor { animation: none; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#heroClip)">
+    <rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="#0B0F0C"/>
+    <rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="url(#heroGrid)"/>
+    <ellipse cx="210" cy="130" rx="330" ry="190" fill="url(#heroGlow)"/>
+    <rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="url(#heroScan)"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="879" height="299" rx="14" stroke="#1E2B22" stroke-width="1"/>
+
+  <g stroke="#7EE787" stroke-opacity="0.55" stroke-width="1.5" stroke-linecap="round">
+    <path d="M24 44V24H44"/>
+    <path d="M856 44V24H836"/>
+    <path d="M24 256V276H44"/>
+    <path d="M856 256V276H836"/>
+  </g>
+
+  <g font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace">
+    <text x="42" y="58" font-size="13" letter-spacing="0.3" fill="#8A9B8F">
+      <tspan>zcx@priv:~$ </tspan><tspan fill="#7EE787">whoami</tspan>
+    </text>
+    <rect class="hero-cursor" x="188" y="46" width="8" height="14" rx="1" fill="#7EE787"/>
+
+    <text x="40" y="120" font-size="44" font-weight="700" letter-spacing="1.5">
+      <tspan fill="#E6F2EA">SOLO</tspan><tspan fill="#7EE787">-</tspan><tspan fill="#E6F2EA">THINKER</tspan>
+    </text>
+
+    <text x="42" y="150" font-size="11" font-weight="600" letter-spacing="3.5" fill="#7EE787">SECURITY · SYSTEMS · FULL-STACK</text>
+
+    <text x="42" y="188" font-size="14" letter-spacing="0.2" fill="#8A9B8F">Understand the system. Break it. Build it back stronger.</text>
+
+    <circle cx="45" cy="254" r="3" fill="#7EE787"/>
+    <text x="55" y="258" font-size="11" letter-spacing="0.3" fill="#8A9B8F">github.com/ZCX-Priv</text>
+    <text x="838" y="258" font-size="10" letter-spacing="1.5" fill="#4E5E53" text-anchor="end">EST. 2025</text>
+
+    <line x1="600" y1="60" x2="600" y2="244" stroke="#1E2B22" stroke-width="1"/>
+
+    <text x="620" y="82" font-size="10" font-weight="600" letter-spacing="2.2" fill="#7EE787">[ SYSTEM ]</text>
+
+    <g font-size="10.5" letter-spacing="0.4">
+      <text x="620" y="112" fill="#4E5E53">UID</text>
+      <text x="704" y="112" fill="#E6F2EA">1000</text>
+      <text x="620" y="132" fill="#4E5E53">SHELL</text>
+      <text x="704" y="132" fill="#E6F2EA">/bin/zsh</text>
+      <text x="620" y="152" fill="#4E5E53">FOCUS</text>
+      <text x="704" y="152" fill="#E6F2EA">security</text>
+      <text x="620" y="172" fill="#4E5E53">STATE</text>
+      <text x="704" y="172" fill="#E6F2EA">learning · building</text>
+      <text x="620" y="192" fill="#4E5E53">LOCALE</text>
+      <text x="704" y="192" fill="#E6F2EA">UTC+8</text>
+    </g>
+  </g>
+</svg>

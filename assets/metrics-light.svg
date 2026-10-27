@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880" height="320" viewBox="0 0 880 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="metricsTitle metricsDesc">
+  <title id="metricsTitle">SOLO-Thinker GitHub metrics</title>
+  <desc id="metricsDesc">Repositories, stars, public contributions, current streak, activity heatmap and primary languages for ZCX-Priv.</desc>
+  <defs>
+    <clipPath id="cardClip">
+      <rect x="0.5" y="0.5" width="879" height="319" rx="14" ry="14"/>
+    </clipPath>
+    <clipPath id="barClip">
+      <rect x="32" y="252" width="816" height="8" rx="3"/>
+    </clipPath>
+    <pattern id="metricsGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#1A7F37" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="0.5" y="0.5" width="879" height="319" rx="14" fill="#F5F8F4"/>
+    <rect x="0.5" y="0.5" width="879" height="319" rx="14" fill="url(#metricsGrid)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="319" rx="14" stroke="#D5E0D7" stroke-width="1"/>
+
+  <g font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace">
+    <rect x="32" y="21" width="5" height="5" rx="1" fill="#1A7F37"/>
+    <text x="44" y="30" font-size="12" letter-spacing="0.3" fill="#5B6B60">
+      <tspan>zcx@priv:~$ </tspan><tspan fill="#1A7F37">./metrics --window 365d</tspan>
+    </text>
+    <text x="848" y="30" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#93A398">SEED · PUBLIC DATA</text>
+    <line x1="32" y1="48" x2="848" y2="48" stroke="#D5E0D7" stroke-width="1"/>
+
+    
+        <text x="32" y="108" font-size="38" font-weight="700" fill="#101B14">21</text>
+        <text x="32" y="128" font-size="9" letter-spacing="1.6" fill="#5B6B60">PUBLIC REPOS</text>
+      
+        <text x="272" y="108" font-size="38" font-weight="700" fill="#101B14">27</text>
+        <text x="272" y="128" font-size="9" letter-spacing="1.6" fill="#5B6B60">STARS RECEIVED</text>
+      
+        <text x="32" y="182" font-size="38" font-weight="700" fill="#93A398">—</text>
+        <text x="32" y="202" font-size="9" letter-spacing="1.6" fill="#5B6B60">CONTRIBUTIONS · 365D</text>
+      
+        <text x="272" y="182" font-size="38" font-weight="700" fill="#93A398">—</text>
+        <text x="272" y="202" font-size="9" letter-spacing="1.6" fill="#5B6B60">CURRENT STREAK</text>
+      
+
+    <line x1="490" y1="64" x2="490" y2="214" stroke="#D5E0D7" stroke-width="1"/>
+
+    
+      <rect x="514" y="96" width="322" height="82" rx="4" fill="none" stroke="#D5E0D7" stroke-dasharray="4 5"/>
+      <text x="675" y="141" text-anchor="middle" font-size="10" letter-spacing="2" fill="#93A398">SYNC PENDING</text>
+    
+    
+    <line x1="32" y1="224" x2="848" y2="224" stroke="#D5E0D7" stroke-width="1"/>
+    <text x="32" y="242" font-size="9" letter-spacing="1.6" fill="#5B6B60">PRIMARY LANGUAGES</text>
+    <text x="848" y="242" text-anchor="end" font-size="8" letter-spacing="1" fill="#93A398">TOP 5 · BY PRIMARY LANGUAGE</text>
+    <rect x="32" y="252" width="816" height="8" rx="3" fill="#D5E0D7"/>
+    <g clip-path="url(#barClip)"><rect x="32.00" y="252" width="342.08" height="8" fill="#1A7F37"/><rect x="375.58" y="252" width="213.24" height="8" fill="#2DA44E"/><rect x="590.32" y="252" width="127.34" height="8" fill="#4CAF6E"/><rect x="719.16" y="252" width="84.39" height="8" fill="#7BC496"/><rect x="805.05" y="252" width="41.45" height="8" fill="#A8DDB8"/></g>
+    
+        <circle cx="36.00" cy="280" r="3" fill="#1A7F37"/>
+        <text x="46.00" y="283" font-size="9.5" fill="#5B6B60">JavaScript 42%</text>
+      
+        <circle cx="199.20" cy="280" r="3" fill="#2DA44E"/>
+        <text x="209.20" y="283" font-size="9.5" fill="#5B6B60">TypeScript 26%</text>
+      
+        <circle cx="362.40" cy="280" r="3" fill="#4CAF6E"/>
+        <text x="372.40" y="283" font-size="9.5" fill="#5B6B60">HTML 16%</text>
+      
+        <circle cx="525.60" cy="280" r="3" fill="#7BC496"/>
+        <text x="535.60" y="283" font-size="9.5" fill="#5B6B60">Vue 11%</text>
+      
+        <circle cx="688.80" cy="280" r="3" fill="#A8DDB8"/>
+        <text x="698.80" y="283" font-size="9.5" fill="#5B6B60">CSS 5%</text>
+      
+  
+
+    <text x="32" y="306" font-size="9" letter-spacing="0.4" fill="#93A398">source: GitHub REST API · seed</text>
+    <text x="848" y="306" text-anchor="end" font-size="9" letter-spacing="0.4" fill="#93A398">updated 2026-10-27 11:46 UTC</text>
+  </g>
+</svg>
